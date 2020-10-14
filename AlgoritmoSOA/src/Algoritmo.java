@@ -225,7 +225,7 @@ public class Algoritmo extends JFrame implements ActionListener {
 							// Variável k (responsável por verificar qual a página mais antiga) acresce +1
 							k++;
 
-							// Caso a variável alcance o tamanho da memória, retorna o índice para a página
+							// Caso a variável k alcance o tamanho da memória, retorna o índice para a página
 							// inicial (pois será a mais antiga)
 							if (k == memoria.length)
 								k = 0;
@@ -236,9 +236,9 @@ public class Algoritmo extends JFrame implements ActionListener {
 					k = 0;
 
 					// Imprime a mensagem de que o programa chegou ao fim de sua execução
-					CaixaDeTexto.append("\nFim\n\n");
+					CaixaDeTexto.append("\nFim da Execução\n\n");
 
-					// Verifica e imprime os valores dos endereços de memórias após todas as
+					// Imprime os valores dos endereços de memórias após todas as
 					// substituições de páginas que ocorreram no programa
 					for (i = 0; i < memoria.length; i++) {
 						CaixaDeTexto.append((i + 1) + "º Espaço de Memória: [" + memoria[i] + "]\n");
