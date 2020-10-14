@@ -192,8 +192,7 @@ public class Algoritmo extends JFrame implements ActionListener {
 								// Vetor compare recebe as páginas em ordem caso haja futura necessidade de
 								// substituição
 								compare[i] = memoria[i];
-								CaixaDeTexto.append(
-										(i + 1) + "º Espaço de Memória [" + memoria[i] + "] - Não existe na Memória\n");
+								CaixaDeTexto.append((i + 1) + "º Espaço de Memória [" + memoria[i] + "] - Não existe na Memória\n");
 
 							// Se a pagina já está no endereço que o índice indica:
 							} else {
@@ -202,8 +201,7 @@ public class Algoritmo extends JFrame implements ActionListener {
 								compare[0] = -1;
 
 								// Imprime a página que está no índice e indica que já está naquele endereço
-								CaixaDeTexto.append(
-										(i + 1) + "º Espaço de Memória [" + memoria[i] + "] - Já existe na memória\n");
+								CaixaDeTexto.append((i + 1) + "º Espaço de Memória [" + memoria[i] + "] - Já existe na memória\n");
 
 								// Indica que não houve falta de página e termina a busca na memória
 								CaixaDeTexto.append("---- Não houve falta de página -----\n");
