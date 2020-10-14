@@ -127,7 +127,7 @@ public class Algoritmo extends JFrame implements ActionListener {
 					CaixaDeTexto.setText(null);
 					T4.setText("");
 
-					// Verifica se o campo de indicação da quantidade de páginas
+				// Verifica se o campo de indicação da quantidade de páginas
 				} else if (T3.getText() == null || T3.getText().trim().equals("")) {
 					JOptionPane.showMessageDialog(null, "A quantidade de páginas não pode ser nula!");
 					CaixaDeTexto.setText(null);
@@ -145,7 +145,7 @@ public class Algoritmo extends JFrame implements ActionListener {
 					CaixaDeTexto.setText(null);
 					T4.setText("");
 
-					// Verifica se o tamanho da memória é inferior ou igual à quantidade de páginas.
+				// Verifica se o tamanho da memória é inferior ou igual à quantidade de páginas.
 				} else if (teste2 >= teste1) {
 
 					// Habilita a visualização do componente onde os resultados serão impressos
@@ -195,7 +195,7 @@ public class Algoritmo extends JFrame implements ActionListener {
 								CaixaDeTexto.append(
 										(i + 1) + "º Espaço de Memória [" + memoria[i] + "] - Não existe na Memória\n");
 
-								// Se a pagina já está no endereço que o índice indica:
+							// Se a pagina já está no endereço que o índice indica:
 							} else {
 
 								// Variável compare recebe valor -1 para comparação futura
