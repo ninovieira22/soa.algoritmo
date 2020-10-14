@@ -201,7 +201,7 @@ public class Algoritmo extends JFrame implements ActionListener {
 								// Variável compare recebe valor -1 para comparação futura
 								compare[0] = -1;
 
-								// imprime a página que está no índice e indica que já está naquele endereço
+								// Imprime a página que está no índice e indica que já está naquele endereço
 								CaixaDeTexto.append(
 										(i + 1) + "º Espaço de Memória [" + memoria[i] + "] - Já existe na memória\n");
 
